@@ -1,2 +1,260 @@
 /* font-family: 'Raleway', sans-serif; */
 /* font-family: 'Roboto', sans-serif; */
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* ===========================HEADER=========================== */
+
+/* =============Logo============= */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #4d5ae5;
+}
+
+.logo-light-theme {
+  color: #2e2f42;
+}
+.logo-dark-theme {
+  color: #f4f4fd;
+}
+
+/* =============Navigation list============= */
+
+.menu .link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.menu .link:hover,
+.menu .link:focus {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #404bbf;
+}
+
+/* =============Contact list============= */
+
+.contact .link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+
+.contact .link:hover,
+.contact .link:focus {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #404bbf;
+}
+
+/* ===========================HERO=========================== */
+
+.main-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+
+.modal-button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  background-color: #4d5ae5;
+}
+.modal-button:active {
+  background-color: #404bbf;
+}
+
+/* ===========================OTHER SECTION=========================== */
+
+/* =============Title============= */
+
+.section-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #2e2f42;
+}
+
+/* =============Subtitle============= */
+
+.section-features .section-subtitle,
+.section-team .section-subtitle {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+/* =============Text============= */
+
+.section-features .section-text,
+.section-team .section-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+
+/* ===========================FOOTER=========================== */
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #f4f4fd;
+}
+
+/* ===========================PORTFOLIO MAIN SECTION=========================== */
+
+.portfolio-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.section-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #2e2f42;
+}
+
+.filter .filter-button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.filter .filter-button:hover,
+.filter .filter-button:focus {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.collection .section-subtitle {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.collection .section-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
