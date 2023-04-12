@@ -63,7 +63,7 @@ body {
 
 /* =============Contact list============= */
 
-.address .link {
+.address {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -102,16 +102,17 @@ body {
   letter-spacing: 0.04em;
 
   color: #ffffff;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 .modal-button:hover,
 .modal-button:focus {
-  background-color: #4d5ae5;
-}
-
-.modal-button:active {
   background-color: var(--primary-accent-color);
 }
+
+/* .modal-button:active {
+  background-color: var(--primary-accent-color);
+} */
 
 /* ===========================OTHER SECTION=========================== */
 
@@ -205,6 +206,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
 
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
@@ -212,5 +214,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
 
-  /* color: var(--primary-text-color); */
+  color: var(--primary-text-color);
 }
